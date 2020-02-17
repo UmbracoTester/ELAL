@@ -1,6 +1,8 @@
-﻿using elalAPI.Models;
+﻿using elalAPI.Managers;
+using elalAPI.Models;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
@@ -14,35 +16,44 @@ namespace elalAPI.Controllers
     public class DestinationsController : UmbracoApiController
     {
 
-        [System.Web.Http.HttpGet]
-        public string DestinationById(int id ) {
+        public IDestinationManager _manager;
+        private string AllDestinationRoute = "";
 
-            //http://elal.test/umbraco/api/destinations/destinationbyid?id=1077
-            var ipc = UmbracoContext.Content.GetById(id);
-            FlightDestinationModel destination = new FlightDestinationModel(ipc);
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            return js.Serialize(destination);
-            
+        public DestinationsController()
+        {
+            _manager = new DestinationManager();
         }
 
         [System.Web.Http.HttpGet]
-        public string GetAllDestinations() {
-            //http://elal.test/umbraco/api/destinations/GetAllDestinations
+        public string DestinationById(int id)
+        {
+            //http://elal.test/umbraco/api/destinations/destinationbyid?id=1077
+            var ipc = UmbracoContext.Content.GetById(id);
+            var destination = _manager.GetDestinationModel(ipc);
+            var js = new JavaScriptSerializer();
+            return js.Serialize(destination);
 
-            //1: Get element 
-            Plazma plazma = UmbracoContext.Content.GetByRoute("/he/first-plazma/") as Plazma;
-            //2: Extract destination picker 
-            var picker = plazma.DestinationPicker;
-            //3: Loop through picker children
-            List<FlightDestinationModel> destinations = new List<FlightDestinationModel>();
-            foreach (FlightDesination item in picker)
-            {
-                FlightDestinationModel dest = new FlightDestinationModel(item);
-                destinations.Add(dest);
-            }
-            //4: return children as DestinationModel 
+        }
+
+        [System.Web.Http.HttpGet]
+        public string GetAllDestinations()
+        {
+            //http://elal.test/umbraco/api/destinations/GetAllDestinations
+            var ipc = UmbracoContext.Content.GetByRoute(AllDestinationRoute);
+            var destList = _manager.GetAllDestinations(ipc);
             JavaScriptSerializer js = new JavaScriptSerializer();
-            return js.Serialize(destinations);
+            return js.Serialize(destList);
+
+        }
+
+        [System.Web.Http.HttpGet]
+        public string GetAllDestinationsFromPlazma(string route)
+        {
+            //http://elal.test/umbraco/api/destinations/GetAllDestinations
+            var ipc = UmbracoContext.Content.GetByRoute(route);
+            var destList = _manager.GetAllDestinations(ipc);
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            return js.Serialize(destList);
 
         }
 

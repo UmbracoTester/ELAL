@@ -108,10 +108,31 @@ namespace Umbraco.Web.PublishedModels
 		public string IAta => this.Value<string>("iATA");
 
 		///<summary>
+		/// Image
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
+		[ImplementPropertyType("image")]
+		public global::Umbraco.Core.Models.PublishedContent.IPublishedContent Image => this.Value<global::Umbraco.Core.Models.PublishedContent.IPublishedContent>("image");
+
+		///<summary>
+		/// NewLabel
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
+		[ImplementPropertyType("newLabel")]
+		public string NewLabel => this.Value<string>("newLabel");
+
+		///<summary>
 		/// ShowInFooter
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
 		[ImplementPropertyType("showInFooter")]
 		public bool ShowInFooter => this.Value<bool>("showInFooter");
+
+		///<summary>
+		/// ShowInNavigation
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
+		[ImplementPropertyType("showInNavigation")]
+		public bool ShowInNavigation => this.Value<bool>("showInNavigation");
 	}
 }

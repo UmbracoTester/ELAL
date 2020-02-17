@@ -199,4 +199,3 @@ D:\ELAL\elalAPI\bin\Umbraco.Web.UI.xml
 D:\ELAL\elalAPI\obj\Debug\elalAPI.csproj.CoreCompileInputs.cache
 D:\ELAL\elalAPI\obj\Debug\elalAPI.dll
 D:\ELAL\elalAPI\obj\Debug\elalAPI.pdb
-D:\ELAL\elalAPI\obj\Debug\elalAPI.csprojResolveAssemblyReference.cache
