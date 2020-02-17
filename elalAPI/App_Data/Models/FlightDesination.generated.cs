@@ -19,7 +19,7 @@ using Umbraco.ModelsBuilder.Embedded;
 
 namespace Umbraco.Web.PublishedModels
 {
-	/// <summary>FlightDesination</summary>
+	/// <summary>FlightDestination</summary>
 	[PublishedModel("flightDesination")]
 	public partial class FlightDesination : PublishedContentModel
 	{
