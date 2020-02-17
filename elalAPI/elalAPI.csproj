@@ -329,6 +329,7 @@
     <Compile Include="App_Data\Models\Folder.generated.cs" />
     <Compile Include="App_Data\Models\Image.generated.cs" />
     <Compile Include="App_Data\Models\Member.generated.cs" />
+    <Compile Include="App_Data\Models\Plazma.generated.cs" />
     <Compile Include="Controllers\DestinationsController.cs" />
     <Compile Include="Models\FlightDestination.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

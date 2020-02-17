@@ -29,13 +29,18 @@ namespace elalAPI.Controllers
         public string GetAllDestinations() {
             //http://elal.test/umbraco/api/destinations/GetAllDestinations
 
-            var ipc = UmbracoContext.Content.GetByRoute("/he/all-destinations/");
+            //1: Get element 
+            Plazma plazma = UmbracoContext.Content.GetByRoute("/he/first-plazma/") as Plazma;
+            //2: Extract destination picker 
+            var picker = plazma.DestinationPicker;
+            //3: Loop through picker children
             List<FlightDestinationModel> destinations = new List<FlightDestinationModel>();
-            foreach (FlightDesination item in ipc.Children)
+            foreach (FlightDesination item in picker)
             {
                 FlightDestinationModel dest = new FlightDestinationModel(item);
                 destinations.Add(dest);
             }
+            //4: return children as DestinationModel 
             JavaScriptSerializer js = new JavaScriptSerializer();
             return js.Serialize(destinations);
 
