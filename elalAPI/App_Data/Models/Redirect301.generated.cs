@@ -19,57 +19,64 @@ using Umbraco.ModelsBuilder.Embedded;
 
 namespace Umbraco.Web.PublishedModels
 {
-	/// <summary>DealCategory</summary>
-	[PublishedModel("dealCategory")]
-	public partial class DealCategory : PublishedContentModel
+	// Mixin Content Type with alias "redirect301"
+	/// <summary>301</summary>
+	public partial interface IRedirect301 : IPublishedContent
+	{
+		/// <summary>Expiration Date</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
+		global::System.DateTime ExpirationDate { get; }
+
+		/// <summary>Uniform Resource Locator</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
+		global::Umbraco.Web.Models.Link UniformResourceLocator { get; }
+	}
+
+	/// <summary>301</summary>
+	[PublishedModel("redirect301")]
+	public partial class Redirect301 : PublishedContentModel, IRedirect301
 	{
 		// helpers
 #pragma warning disable 0109 // new is redundant
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		public new const string ModelTypeAlias = "dealCategory";
+		public new const string ModelTypeAlias = "redirect301";
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
 		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
 		public new static IPublishedContentType GetModelContentType()
 			=> PublishedModelUtility.GetModelContentType(ModelItemType, ModelTypeAlias);
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		public static IPublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<DealCategory, TValue>> selector)
+		public static IPublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Redirect301, TValue>> selector)
 			=> PublishedModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 #pragma warning restore 0109
 
 		// ctor
-		public DealCategory(IPublishedContent content)
+		public Redirect301(IPublishedContent content)
 			: base(content)
 		{ }
 
 		// properties
 
 		///<summary>
-		/// DisplayInSite: This option is for filtering
+		/// Expiration Date
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		[ImplementPropertyType("displayInSite")]
-		public bool DisplayInSite => this.Value<bool>("displayInSite");
+		[ImplementPropertyType("expirationDate")]
+		public global::System.DateTime ExpirationDate => GetExpirationDate(this);
+
+		/// <summary>Static getter for Expiration Date</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
+		public static global::System.DateTime GetExpirationDate(IRedirect301 that) => that.Value<global::System.DateTime>("expirationDate");
 
 		///<summary>
-		/// Icon
+		/// Uniform Resource Locator
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		[ImplementPropertyType("icon")]
-		public global::Umbraco.Core.Models.PublishedContent.IPublishedContent Icon => this.Value<global::Umbraco.Core.Models.PublishedContent.IPublishedContent>("icon");
+		[ImplementPropertyType("UniformResourceLocator")]
+		public global::Umbraco.Web.Models.Link UniformResourceLocator => GetUniformResourceLocator(this);
 
-		///<summary>
-		/// Key
-		///</summary>
+		/// <summary>Static getter for Uniform Resource Locator</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		[ImplementPropertyType("key")]
-		public string Key => this.Value<string>("key");
-
-		///<summary>
-		/// Title
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		[ImplementPropertyType("title")]
-		public string Title => this.Value<string>("title");
+		public static global::Umbraco.Web.Models.Link GetUniformResourceLocator(IRedirect301 that) => that.Value<global::Umbraco.Web.Models.Link>("UniformResourceLocator");
 	}
 }

@@ -20,25 +20,25 @@ using Umbraco.ModelsBuilder.Embedded;
 namespace Umbraco.Web.PublishedModels
 {
 	/// <summary>FlightDestination</summary>
-	[PublishedModel("flightDesination")]
-	public partial class FlightDesination : PublishedContentModel
+	[PublishedModel("flightDestination")]
+	public partial class FlightDestination : PublishedContentModel
 	{
 		// helpers
 #pragma warning disable 0109 // new is redundant
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		public new const string ModelTypeAlias = "flightDesination";
+		public new const string ModelTypeAlias = "flightDestination";
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
 		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
 		public new static IPublishedContentType GetModelContentType()
 			=> PublishedModelUtility.GetModelContentType(ModelItemType, ModelTypeAlias);
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		public static IPublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<FlightDesination, TValue>> selector)
+		public static IPublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<FlightDestination, TValue>> selector)
 			=> PublishedModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 #pragma warning restore 0109
 
 		// ctor
-		public FlightDesination(IPublishedContent content)
+		public FlightDestination(IPublishedContent content)
 			: base(content)
 		{ }
 
@@ -66,46 +66,18 @@ namespace Umbraco.Web.PublishedModels
 		public string Country => this.Value<string>("country");
 
 		///<summary>
-		/// DestinationIsActive
+		/// Destination Name: Is This a duplicate?
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		[ImplementPropertyType("destinationIsActive")]
-		public bool DestinationIsActive => this.Value<bool>("destinationIsActive");
-
-		///<summary>
-		/// DisplayName
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		[ImplementPropertyType("displayName")]
-		public string DisplayName => this.Value<string>("displayName");
-
-		///<summary>
-		/// DisplayOnFlightPackages
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		[ImplementPropertyType("displayOnFlightPackages")]
-		public bool DisplayOnFlightPackages => this.Value<bool>("displayOnFlightPackages");
-
-		///<summary>
-		/// DisplayOnSearchEngine
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		[ImplementPropertyType("displayOnSearchEngine")]
-		public bool DisplayOnSearchEngine => this.Value<bool>("displayOnSearchEngine");
-
-		///<summary>
-		/// DisplayOnVehiclePackages
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		[ImplementPropertyType("displayOnVehiclePackages")]
-		public bool DisplayOnVehiclePackages => this.Value<bool>("displayOnVehiclePackages");
+		[ImplementPropertyType("destinationName")]
+		public string DestinationName => this.Value<string>("destinationName");
 
 		///<summary>
 		/// IATA
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		[ImplementPropertyType("iATA")]
-		public string IAta => this.Value<string>("iATA");
+		[ImplementPropertyType("IATA")]
+		public string Iata => this.Value<string>("IATA");
 
 		///<summary>
 		/// Image
@@ -115,11 +87,25 @@ namespace Umbraco.Web.PublishedModels
 		public global::Umbraco.Core.Models.PublishedContent.IPublishedContent Image => this.Value<global::Umbraco.Core.Models.PublishedContent.IPublishedContent>("image");
 
 		///<summary>
-		/// NewLabel
+		/// IsDestinationActive
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		[ImplementPropertyType("newLabel")]
-		public string NewLabel => this.Value<string>("newLabel");
+		[ImplementPropertyType("isDestinationActive")]
+		public bool IsDestinationActive => this.Value<bool>("isDestinationActive");
+
+		///<summary>
+		/// IsNew
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
+		[ImplementPropertyType("isNew")]
+		public bool IsNew => this.Value<bool>("isNew");
+
+		///<summary>
+		/// ShowInFlightPackages
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
+		[ImplementPropertyType("showInFlightPackages")]
+		public bool ShowInFlightPackages => this.Value<bool>("showInFlightPackages");
 
 		///<summary>
 		/// ShowInFooter
@@ -134,5 +120,26 @@ namespace Umbraco.Web.PublishedModels
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
 		[ImplementPropertyType("showInNavigation")]
 		public bool ShowInNavigation => this.Value<bool>("showInNavigation");
+
+		///<summary>
+		/// ShowInRegularEngine
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
+		[ImplementPropertyType("showInRegularEngine")]
+		public bool ShowInRegularEngine => this.Value<bool>("showInRegularEngine");
+
+		///<summary>
+		/// ShowInVehiclePackages
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
+		[ImplementPropertyType("showInVehiclePackages")]
+		public bool ShowInVehiclePackages => this.Value<bool>("showInVehiclePackages");
+
+		///<summary>
+		/// Title
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
+		[ImplementPropertyType("title")]
+		public string Title => this.Value<string>("title");
 	}
 }

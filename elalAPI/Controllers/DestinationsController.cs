@@ -17,17 +17,21 @@ namespace elalAPI.Controllers
     {
 
         public IDestinationManager _manager;
+        ILogger _logger;
         private string AllDestinationRoute = "";
 
         public DestinationsController()
         {
             _manager = new DestinationManager();
+            _logger = new Logger();
         }
 
         [System.Web.Http.HttpGet]
         public string DestinationById(int id)
         {
-            //http://elal.test/umbraco/api/destinations/destinationbyid?id=1077
+            //http://elal.test/umbraco/api/destinations/destinationbyid?id=1061
+            _logger.LogStart();
+
             var ipc = UmbracoContext.Content.GetById(id);
             var destination = _manager.GetDestinationModel(ipc);
             var js = new JavaScriptSerializer();

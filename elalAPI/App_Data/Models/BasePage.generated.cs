@@ -21,7 +21,7 @@ namespace Umbraco.Web.PublishedModels
 {
 	/// <summary>BasePage</summary>
 	[PublishedModel("basePage")]
-	public partial class BasePage : PublishedContentModel
+	public partial class BasePage : PublishedContentModel, IRedirect301
 	{
 		// helpers
 #pragma warning disable 0109 // new is redundant
@@ -45,10 +45,17 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Title
+		/// Expiration Date
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
-		[ImplementPropertyType("title")]
-		public string Title => this.Value<string>("title");
+		[ImplementPropertyType("expirationDate")]
+		public global::System.DateTime ExpirationDate => global::Umbraco.Web.PublishedModels.Redirect301.GetExpirationDate(this);
+
+		///<summary>
+		/// Uniform Resource Locator
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.5.3")]
+		[ImplementPropertyType("UniformResourceLocator")]
+		public global::Umbraco.Web.Models.Link UniformResourceLocator => global::Umbraco.Web.PublishedModels.Redirect301.GetUniformResourceLocator(this);
 	}
 }

@@ -26,19 +26,17 @@ namespace elalAPI.Managers
 
         public List<FlightDestinationModel> GetAllDestinations(IPublishedContent ipc)
         {
-            
-
-            
-
             List<FlightDestinationModel> destinations = new List<FlightDestinationModel>();
-            foreach (FlightDesination item in ipc.Children)
-            {
-                FlightDestinationModel dest = new FlightDestinationModel(item);
-                destinations.Add(dest);
-            }
+            if (ipc is FlightDestination) {
+                foreach (FlightDestination item in ipc.Children)
+                {
+                    FlightDestinationModel dest = new FlightDestinationModel(item);
+                    destinations.Add(dest);
+                }
+            }                      
             return destinations;
         }
-
+         
 
 
 

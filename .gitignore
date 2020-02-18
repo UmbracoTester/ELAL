@@ -1,3 +1,4 @@
-elalAPI/App_Data\TEMP\
 /.vs
 /elalAPI/App_Data/TEMP
+/elalAPI/App_Data/Logs
+/elalAPI/bin
