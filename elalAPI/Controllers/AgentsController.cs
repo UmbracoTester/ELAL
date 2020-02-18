@@ -22,7 +22,7 @@ namespace elalAPI.Controllers
             _logger = new Logger();
         }
 
-
+        [WebApiOutputCache("Profile.Cache.High")]
         [System.Web.Http.HttpGet]
         public string GetAgentPage()
         {

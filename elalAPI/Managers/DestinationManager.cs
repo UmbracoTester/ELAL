@@ -37,9 +37,6 @@ namespace elalAPI.Managers
             return destinations;
         }
          
-
-
-
         public FlightDestinationModel GetDestinationModel(IPublishedContent ipc)
         {           
             FlightDestinationModel destination = new FlightDestinationModel(ipc);

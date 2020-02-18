@@ -330,6 +330,7 @@
     <Compile Include="App_Data\Models\Redirect301.generated.cs" />
     <Compile Include="Controllers\AgentsController.cs" />
     <Compile Include="Controllers\DestinationsController.cs" />
+    <Compile Include="Controllers\WebApiOutputCacheAttribute.cs" />
     <Compile Include="Managers\DestinationManager.cs" />
     <Compile Include="Managers\Logger.cs" />
     <Compile Include="Models\DataTypeModels\ImageModel.cs" />
