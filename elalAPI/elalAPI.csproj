@@ -320,22 +320,24 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Data\Models\BaseElement.generated.cs" />
+    <Compile Include="App_Data\Models\AgentsPage.generated.cs" />
     <Compile Include="App_Data\Models\BasePage.generated.cs" />
-    <Compile Include="App_Data\Models\Currency.generated.cs" />
-    <Compile Include="App_Data\Models\DealCategory.generated.cs" />
     <Compile Include="App_Data\Models\File.generated.cs" />
-    <Compile Include="App_Data\Models\FlightDesination.generated.cs" />
+    <Compile Include="App_Data\Models\FlightDestination.generated.cs" />
     <Compile Include="App_Data\Models\Folder.generated.cs" />
     <Compile Include="App_Data\Models\Image.generated.cs" />
     <Compile Include="App_Data\Models\Member.generated.cs" />
-    <Compile Include="App_Data\Models\Plazma.generated.cs" />
+    <Compile Include="App_Data\Models\Redirect301.generated.cs" />
+    <Compile Include="Controllers\AgentsController.cs" />
     <Compile Include="Controllers\DestinationsController.cs" />
     <Compile Include="Managers\DestinationManager.cs" />
+    <Compile Include="Managers\Logger.cs" />
+    <Compile Include="Models\DataTypeModels\ImageModel.cs" />
     <Compile Include="Models\FlightDestination.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Views\Agents\" />
     <Folder Include="Views\Destinations\" />
   </ItemGroup>
   <PropertyGroup>
