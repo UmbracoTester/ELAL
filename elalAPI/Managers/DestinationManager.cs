@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using elalAPI.Models;
+using Examine;
 using Umbraco.Core.Models.PublishedContent;
+using Umbraco.Examine;
 using Umbraco.Web;
 using Umbraco.Web.PublishedModels;
 using Umbraco.Web.WebApi;
@@ -15,12 +17,13 @@ namespace elalAPI.Managers
         FlightDestinationModel GetDestinationModel(IPublishedContent ipc );
 
         List<FlightDestinationModel> GetAllDestinations(IPublishedContent ipc);
-        
+        PlazmaModel GetPlazma(IPublishedContent ipc);
     }
     public class DestinationManager :  IDestinationManager
     {
         public DestinationManager()
         {
+           
 
         }
 
@@ -43,6 +46,10 @@ namespace elalAPI.Managers
             return destination;
         }
 
-       
+        public PlazmaModel GetPlazma(IPublishedContent ipc)
+        {
+            return ipc is Plazma ? new PlazmaModel(ipc) : null;
+
+        }
     }
 }

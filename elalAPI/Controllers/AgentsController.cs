@@ -19,12 +19,12 @@ namespace elalAPI.Controllers
 
         public AgentsController()
         {
-            _logger = new Logger();
+            _logger = new ElalLogger();
         }
 
         [WebApiOutputCache("Profile.Cache.High")]
         [System.Web.Http.HttpGet]
-        public string GetAgentPage()
+        public string GetAgentPage() 
         {
             //http://elal.test/umbraco/api/Agents/GetAgentPage
             _logger.LogStart();
@@ -39,6 +39,7 @@ namespace elalAPI.Controllers
                 list.Add(new FlightDestinationModel(item));
             }
             var js = new JavaScriptSerializer();
+            _logger.LogFinish();
             return js.Serialize(list);
 
         }

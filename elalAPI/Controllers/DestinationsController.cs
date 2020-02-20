@@ -1,5 +1,6 @@
 ﻿using elalAPI.Managers;
 using elalAPI.Models;
+using elalAPI.Models.DataTypeModels;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -23,8 +24,30 @@ namespace elalAPI.Controllers
         public DestinationsController()
         {
             _manager = new DestinationManager();
-            _logger = new Logger();
+            _logger = new ElalLogger();
+             
         }
+
+
+        public string GetPlazma() {
+            //http://elal.test/umbraco/api/destinations/GetPlazma 
+
+            var ipc = UmbracoContext.Content.GetByRoute("/he/homepage/blazma/");
+            var plazma= _manager.GetPlazma(ipc);
+            var js = new JavaScriptSerializer();
+            string res = js.Serialize(plazma); 
+            return res;
+        }
+        public string GetDeal()
+        {
+            //http://elal.test/umbraco/api/destinations/GetDeal
+
+            var ipc = UmbracoContext.Content.GetByRoute("/settings/deals/berlin-deal-1/");
+            var deal = new DealModel(ipc as Deal);
+            var js = new JavaScriptSerializer();
+            return js.Serialize(deal);
+        }
+
 
         [System.Web.Http.HttpGet]
         public string DestinationById(int id)

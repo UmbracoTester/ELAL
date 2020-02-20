@@ -1,0 +1,1231 @@
+2020-02-19 15:41:34,766 [P18972/D3/T188] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing fc2cfe6]
+2020-02-19 15:41:34,808 [P18972/D3/T188] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 15:41:34,869 [P18972/D3/T188] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 15:41:34,871 [P18972/D3/T188] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 15:41:35,186 [P18972/D3/T188] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing 002a3ff]
+2020-02-19 15:41:35,314 [P18972/D3/T188] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (127ms) [Timing 002a3ff]
+2020-02-19 15:41:35,819 [P18972/D3/T188] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 15:41:35,819 [P18972/D3/T188] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 15:41:35,821 [P18972/D3/T188] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 15:41:36,436 [P18972/D3/T188] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing a9c09d5]
+2020-02-19 15:41:36,479 [P18972/D3/T188] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (43ms) [Timing a9c09d5]
+2020-02-19 15:41:36,510 [P18972/D3/T188] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing 5175b23]
+2020-02-19 15:41:36,510 [P18972/D3/T188] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing 5175b23]
+2020-02-19 15:41:36,810 [P18972/D3/T188] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 15:41:36,870 [P18972/D3/T188] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 15:41:36,940 [P18972/D3/T188] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 15:41:36,948 [P18972/D3/T188] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (2186ms) [Timing fc2cfe6]
+2020-02-19 15:41:37,197 [P18972/D3/T169] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 15:41:37,198 [P18972/D3/T169] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 15:44:01,440 [P18972/D3/T186] INFO   Umbraco.Core.Logging.OwinLogger - ["Information"] Event Id: 0, State: User logged will be logged out due to timeout: yakove@matrix.co.il, IP Address: 127.0.0.1
+2020-02-19 15:44:07,449 [P18972/D3/T83] INFO   Umbraco.Core.Logging.OwinLogger - ["Information"] Event Id: 0, State: User logged will be logged out due to timeout: yakove@matrix.co.il, IP Address: 127.0.0.1
+2020-02-19 15:44:25,852 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 15:44:25,852 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 15:44:25,854 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 15:44:25,854 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 15:44:25,855 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 15:44:25,857 [P18972/D3/T216] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 15:44:25,858 [P18972/D3/T73] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 15:44:25,934 [P18972/D3/T216] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 15:44:25,934 [P18972/D3/T216] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing 33e8b27]
+2020-02-19 15:44:25,967 [P18972/D3/T216] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (32ms) [Timing 33e8b27]
+2020-02-19 15:44:25,967 [P18972/D3/T216] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 15:44:25,968 [P18972/D3/T211] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 15:44:25,968 [P18972/D3/T198] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 15:44:25,968 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 15:44:25,968 [P18972/D3/T211] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 15:44:25,968 [P18972/D3/T184] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 15:44:25,971 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 15:44:25,971 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 15:44:25,971 [P18972/D3/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 15:44:50,508 [P18972/D3/T83] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks completed, terminated
+2020-02-19 15:44:50,591 [P18972/D3/T216] INFO   Umbraco.Web.UmbracoApplicationBase - Application shutdown. Details: "BinDirChangeOrDirectoryRename"
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+2020-02-19 15:45:47,646 [P18972/D4/T160] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing 92f0ce8]
+2020-02-19 15:45:47,679 [P18972/D4/T160] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 15:45:47,741 [P18972/D4/T160] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 15:45:47,742 [P18972/D4/T160] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 15:45:47,946 [P18972/D4/T160] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing 4c6d32a]
+2020-02-19 15:45:48,059 [P18972/D4/T160] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (112ms) [Timing 4c6d32a]
+2020-02-19 15:45:48,602 [P18972/D4/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 15:45:48,602 [P18972/D4/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 15:45:48,604 [P18972/D4/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 15:45:48,981 [P18972/D4/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing f10ab4f]
+2020-02-19 15:45:49,012 [P18972/D4/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (31ms) [Timing f10ab4f]
+2020-02-19 15:45:49,032 [P18972/D4/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing 6ab2d46]
+2020-02-19 15:45:49,033 [P18972/D4/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing 6ab2d46]
+2020-02-19 15:45:49,214 [P18972/D4/T160] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 15:45:49,273 [P18972/D4/T160] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 15:45:49,322 [P18972/D4/T160] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 15:45:49,328 [P18972/D4/T160] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (1687ms) [Timing 92f0ce8]
+2020-02-19 15:45:49,694 [P18972/D4/T216] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 15:45:49,696 [P18972/D4/T216] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 15:45:51,120 [P18972/D4/T216] INFO   Umbraco.Core.Logging.OwinLogger - ["Information"] Event Id: 0, State: Login attempt succeeded for username yakove@matrix.co.il from IP address 127.0.0.1
+2020-02-19 15:45:51,121 [P18972/D4/T216] INFO   Umbraco.Core.Logging.OwinLogger - ["Information"] Event Id: 0, State: User: yakove@matrix.co.il logged in from IP address 127.0.0.1
+2020-02-19 15:47:02,109 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 15:47:02,109 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 15:47:02,111 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 15:47:02,111 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 15:47:02,111 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 15:47:02,111 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 15:47:02,111 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 15:47:02,111 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 15:47:02,111 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 15:47:02,111 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 15:47:02,111 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 15:47:02,116 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 15:47:02,116 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 15:47:02,116 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 15:47:02,116 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 15:47:02,116 [P18972/D4/T159] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 15:47:02,116 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 15:47:02,116 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 15:47:02,116 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 15:47:02,116 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 15:47:02,117 [P18972/D4/T66] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 15:47:02,117 [P18972/D4/T194] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 15:47:02,117 [P18972/D4/T159] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 15:47:02,117 [P18972/D4/T66] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 15:47:02,119 [P18972/D4/T15] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 15:47:02,195 [P18972/D4/T15] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 15:47:02,195 [P18972/D4/T15] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing 459fd87]
+2020-02-19 15:47:02,199 [P18972/D4/T15] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (4ms) [Timing 459fd87]
+2020-02-19 15:47:02,199 [P18972/D4/T15] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 15:47:02,199 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 15:47:02,200 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 15:47:31,433 [P18972/D5/T186] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing 6447d27]
+2020-02-19 15:47:31,466 [P18972/D5/T186] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 15:47:31,520 [P18972/D5/T186] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 15:47:31,522 [P18972/D5/T186] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 15:47:31,734 [P18972/D5/T186] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing ea05c88]
+2020-02-19 15:47:31,876 [P18972/D5/T186] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (140ms) [Timing ea05c88]
+2020-02-19 15:47:32,217 [P18972/D5/T186] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 15:47:32,217 [P18972/D5/T186] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 15:47:32,219 [P18972/D5/T186] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 15:47:32,254 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Canceling tasks
+2020-02-19 15:47:32,355 [P18972/D4/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks cancelled, terminated
+2020-02-19 15:47:32,355 [P18972/D4/T159] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks completed, terminated
+2020-02-19 15:47:32,359 [P18972/D4/T194] INFO   Umbraco.Web.UmbracoApplicationBase - Application shutdown. Details: "BinDirChangeOrDirectoryRename"
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ebb6b7da\70a58b7d\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ebb6b7da\70a58b7d\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+2020-02-19 15:47:32,629 [P18972/D5/T186] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing c847f86]
+2020-02-19 15:47:32,662 [P18972/D5/T186] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (32ms) [Timing c847f86]
+2020-02-19 15:47:32,689 [P18972/D5/T186] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing 262185d]
+2020-02-19 15:47:32,689 [P18972/D5/T186] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing 262185d]
+2020-02-19 15:47:32,876 [P18972/D5/T186] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 15:47:32,924 [P18972/D5/T186] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 15:47:32,964 [P18972/D5/T186] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 15:47:32,970 [P18972/D5/T186] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (1542ms) [Timing 6447d27]
+2020-02-19 15:47:33,176 [P18972/D5/T85] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 15:47:33,178 [P18972/D5/T85] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 15:50:21,794 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 15:50:21,794 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 15:50:21,797 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 15:50:21,797 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 15:50:21,798 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 15:50:21,798 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 15:50:21,798 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 15:50:21,798 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 15:50:21,798 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 15:50:21,798 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 15:50:21,798 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 15:50:21,798 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 15:50:21,801 [P18972/D5/T85] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 15:50:21,802 [P18972/D5/T82] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 15:50:21,802 [P18972/D5/T159] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 15:50:21,802 [P18972/D5/T69] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 15:50:21,895 [P18972/D5/T85] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 15:50:21,897 [P18972/D5/T85] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing e8ad3ab]
+2020-02-19 15:50:21,939 [P18972/D5/T85] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (42ms) [Timing e8ad3ab]
+2020-02-19 15:50:21,940 [P18972/D5/T85] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 15:50:21,940 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 15:50:21,940 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 15:50:21,940 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 15:50:21,940 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 15:50:21,940 [P18972/D5/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 15:50:21,940 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 15:50:21,940 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 15:50:21,940 [P18972/D5/T197] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 15:50:21,947 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 15:50:21,947 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 15:50:21,947 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 15:50:45,421 [P18972/D6/T44] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing 51d9d0c]
+2020-02-19 15:50:45,457 [P18972/D6/T44] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 15:50:45,556 [P18972/D6/T44] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 15:50:45,559 [P18972/D6/T44] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 15:50:45,867 [P18972/D6/T44] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing db7e50b]
+2020-02-19 15:50:45,997 [P18972/D6/T44] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (128ms) [Timing db7e50b]
+2020-02-19 15:50:46,520 [P18972/D6/T44] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 15:50:46,520 [P18972/D6/T44] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 15:50:46,521 [P18972/D6/T44] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 15:50:46,977 [P18972/D6/T44] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing 698b12d]
+2020-02-19 15:50:47,011 [P18972/D6/T44] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (34ms) [Timing 698b12d]
+2020-02-19 15:50:47,038 [P18972/D6/T44] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing 1cb35a0]
+2020-02-19 15:50:47,038 [P18972/D6/T44] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing 1cb35a0]
+2020-02-19 15:50:47,269 [P18972/D6/T44] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 15:50:47,322 [P18972/D6/T44] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 15:50:47,363 [P18972/D6/T44] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 15:50:47,370 [P18972/D6/T44] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (1954ms) [Timing 51d9d0c]
+2020-02-19 15:50:47,741 [P18972/D6/T216] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 15:50:47,744 [P18972/D6/T216] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 15:51:59,254 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Canceling tasks
+2020-02-19 15:51:59,358 [P18972/D5/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks cancelled, terminated
+2020-02-19 15:51:59,358 [P18972/D5/T156] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks completed, terminated
+2020-02-19 15:51:59,400 [P18972/D5/T85] INFO   Umbraco.Web.UmbracoApplicationBase - Application shutdown. Details: "BinDirChangeOrDirectoryRename"
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ebb6b7da\70a58b7d\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ebb6b7da\70a58b7d\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+2020-02-19 15:53:49,866 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Scheduled health check results:
+2020-02-19 15:53:49,866 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Folder & File Permissions' all completed successfully.
+2020-02-19 15:53:49,866 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Folder & File Permissions: "Success", Message: 'All folders have the correct permissions set.'
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Folder & File Permissions: "Success", Message: 'All files have the correct permissions set.'
+2020-02-19 15:53:49,867 [P18972/D6/T183] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'SMTP Settings' completed with errors.
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for SMTP Settings: "Error", Message: 'In the Web.config file system.net/mailsettings section, the host is not configured.'
+2020-02-19 15:53:49,867 [P18972/D6/T183] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Macro errors' completed with errors.
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Macro errors: "Error", Message: 'MacroErrors are set to 'throw' which will prevent some or all pages in your site from loading completely if there are any errors in macros. Rectifying this will set the value to 'inline'.'
+2020-02-19 15:53:49,867 [P18972/D6/T183] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Notification Email Settings' completed with errors.
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Notification Email Settings: "Error", Message: 'Notification email is still set to the default value of <strong>your@email.here</strong>.'
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Try Skip IIS Custom Errors' all completed successfully.
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Try Skip IIS Custom Errors: "Success", Message: 'Try Skip IIS Custom Errors is set to 'true' and you're using IIS version '10.0'.'
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Custom Errors' all completed successfully.
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Custom Errors: "Success", Message: 'Custom errors are set to 'RemoteOnly'.'
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Trace Mode' all completed successfully.
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Trace Mode: "Success", Message: 'Trace mode is disabled.'
+2020-02-19 15:53:49,867 [P18972/D6/T183] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Debug Compilation Mode' completed with errors.
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Debug Compilation Mode: "Error", Message: 'Debug compilation mode is currently enabled. It is recommended to disable this setting before go live.'
+2020-02-19 15:53:49,867 [P18972/D6/T183] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Cross-site scripting Protection (X-XSS-Protection header)' completed with errors.
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Cross-site scripting Protection (X-XSS-Protection header): "Error", Message: 'The header <strong>X-XSS-Protection</strong> was not found.'
+2020-02-19 15:53:49,867 [P18972/D6/T183] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Cookie hijacking and protocol downgrade attacks Protection (Strict-Transport-Security Header (HSTS))' completed with errors.
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Cookie hijacking and protocol downgrade attacks Protection (Strict-Transport-Security Header (HSTS)): "Error", Message: 'The header <strong>Strict-Transport-Security</strong> was not found.'
+2020-02-19 15:53:49,867 [P18972/D6/T183] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Content/MIME Sniffing Protection' completed with errors.
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Content/MIME Sniffing Protection: "Error", Message: 'The header or meta-tag <strong>X-Content-Type-Options</strong> used to protect against MIME sniffing vulnerabilities was not found.'
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Excessive Headers' all completed successfully.
+2020-02-19 15:53:49,867 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Excessive Headers: "Success", Message: 'No headers revealing information about the website technology were found.'
+2020-02-19 15:53:49,868 [P18972/D6/T183] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Click-Jacking Protection' completed with errors.
+2020-02-19 15:53:49,868 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Click-Jacking Protection: "Error", Message: 'The header or meta-tag <strong>X-Frame-Options</strong> used to control whether a site can be IFRAMEd by another was not found.'
+2020-02-19 15:53:49,868 [P18972/D6/T183] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'HTTPS Configuration' completed with errors.
+2020-02-19 15:53:49,868 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Error", Message: 'You are currently not viewing the site using the HTTPS scheme.'
+2020-02-19 15:53:49,868 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Info", Message: 'The appSetting 'Umbraco.Core.UseHttps' is set to 'false' in your web.config file. Once you access this site using the HTTPS scheme, that should be set to 'true'.'
+2020-02-19 15:53:49,868 [P18972/D6/T183] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Error", Message: 'Certificate validation error: 'The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.''
+2020-02-19 15:57:35,191 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 15:57:35,191 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 15:57:35,193 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 15:57:35,193 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 15:57:35,196 [P18972/D6/T193] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 15:57:35,198 [P18972/D6/T165] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 15:57:35,198 [P18972/D6/T149] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 15:57:35,256 [P18972/D6/T193] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 15:57:35,256 [P18972/D6/T193] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing 698ac87]
+2020-02-19 15:57:35,282 [P18972/D6/T193] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (24ms) [Timing 698ac87]
+2020-02-19 15:57:35,282 [P18972/D6/T193] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 15:57:35,282 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 15:57:35,282 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 15:57:35,282 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 15:57:35,282 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 15:57:35,282 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 15:57:35,282 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 15:57:35,282 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 15:57:35,282 [P18972/D6/T172] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks completed, terminated
+2020-02-19 15:57:35,282 [P18972/D6/T158] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 15:57:35,286 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 15:57:35,286 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 15:57:35,286 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 15:57:35,286 [P18972/D6/T185] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 15:57:35,286 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 15:57:35,286 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 15:57:35,286 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 15:57:35,286 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 15:57:35,287 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 15:57:35,287 [P18972/D6/T193] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 15:57:35,287 [P18972/D6/T168] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 15:57:35,287 [P18972/D6/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 15:57:35,392 [P18972/D6/T197] INFO   Umbraco.Web.UmbracoApplicationBase - Application shutdown. Details: "BinDirChangeOrDirectoryRename"
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+2020-02-19 15:57:56,188 [P18972/D7/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing da3a4c3]
+2020-02-19 15:57:56,221 [P18972/D7/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 15:57:56,276 [P18972/D7/T155] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 15:57:56,278 [P18972/D7/T155] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 15:57:56,473 [P18972/D7/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing 984773e]
+2020-02-19 15:57:56,589 [P18972/D7/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (114ms) [Timing 984773e]
+2020-02-19 15:57:56,939 [P18972/D7/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 15:57:56,939 [P18972/D7/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 15:57:56,940 [P18972/D7/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 15:57:57,294 [P18972/D7/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing 913bf5f]
+2020-02-19 15:57:57,326 [P18972/D7/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (31ms) [Timing 913bf5f]
+2020-02-19 15:57:57,351 [P18972/D7/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing e29423a]
+2020-02-19 15:57:57,351 [P18972/D7/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing e29423a]
+2020-02-19 15:57:57,531 [P18972/D7/T155] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 15:57:57,583 [P18972/D7/T155] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 15:57:57,620 [P18972/D7/T155] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 15:57:57,626 [P18972/D7/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (1442ms) [Timing da3a4c3]
+2020-02-19 15:57:57,834 [P18972/D7/T168] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 15:57:57,836 [P18972/D7/T168] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 16:01:39,681 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Scheduled health check results:
+2020-02-19 16:01:39,681 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Folder & File Permissions' all completed successfully.
+2020-02-19 16:01:39,681 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Folder & File Permissions: "Success", Message: 'All folders have the correct permissions set.'
+2020-02-19 16:01:39,681 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Folder & File Permissions: "Success", Message: 'All files have the correct permissions set.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'SMTP Settings' completed with errors.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for SMTP Settings: "Error", Message: 'In the Web.config file system.net/mailsettings section, the host is not configured.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Macro errors' completed with errors.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Macro errors: "Error", Message: 'MacroErrors are set to 'throw' which will prevent some or all pages in your site from loading completely if there are any errors in macros. Rectifying this will set the value to 'inline'.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Notification Email Settings' completed with errors.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Notification Email Settings: "Error", Message: 'Notification email is still set to the default value of <strong>your@email.here</strong>.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Try Skip IIS Custom Errors' all completed successfully.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Try Skip IIS Custom Errors: "Success", Message: 'Try Skip IIS Custom Errors is set to 'true' and you're using IIS version '10.0'.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Custom Errors' all completed successfully.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Custom Errors: "Success", Message: 'Custom errors are set to 'RemoteOnly'.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Trace Mode' all completed successfully.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Trace Mode: "Success", Message: 'Trace mode is disabled.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Debug Compilation Mode' completed with errors.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Debug Compilation Mode: "Error", Message: 'Debug compilation mode is currently enabled. It is recommended to disable this setting before go live.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Cross-site scripting Protection (X-XSS-Protection header)' completed with errors.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Cross-site scripting Protection (X-XSS-Protection header): "Error", Message: 'The header <strong>X-XSS-Protection</strong> was not found.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Cookie hijacking and protocol downgrade attacks Protection (Strict-Transport-Security Header (HSTS))' completed with errors.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Cookie hijacking and protocol downgrade attacks Protection (Strict-Transport-Security Header (HSTS)): "Error", Message: 'The header <strong>Strict-Transport-Security</strong> was not found.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Content/MIME Sniffing Protection' completed with errors.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Content/MIME Sniffing Protection: "Error", Message: 'The header or meta-tag <strong>X-Content-Type-Options</strong> used to protect against MIME sniffing vulnerabilities was not found.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Excessive Headers' all completed successfully.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Excessive Headers: "Success", Message: 'No headers revealing information about the website technology were found.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Click-Jacking Protection' completed with errors.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Click-Jacking Protection: "Error", Message: 'The header or meta-tag <strong>X-Frame-Options</strong> used to control whether a site can be IFRAMEd by another was not found.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'HTTPS Configuration' completed with errors.
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Error", Message: 'You are currently not viewing the site using the HTTPS scheme.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Info", Message: 'The appSetting 'Umbraco.Core.UseHttps' is set to 'false' in your web.config file. Once you access this site using the HTTPS scheme, that should be set to 'true'.'
+2020-02-19 16:01:39,682 [P18972/D7/T181] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Error", Message: 'Certificate validation error: 'The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.''
+2020-02-19 16:05:20,527 [P18972/D7/T151] INFO   Umbraco.Core.Logging.OwinLogger - ["Information"] Event Id: 0, State: User logged will be logged out due to timeout: yakove@matrix.co.il, IP Address: 127.0.0.1
+2020-02-19 16:15:12,858 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 16:15:12,858 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 16:15:12,861 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 16:15:12,861 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 16:15:12,862 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 16:15:12,862 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 16:15:12,862 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 16:15:12,864 [P18972/D7/T145] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 16:15:12,864 [P18972/D7/T145] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 16:15:12,865 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 16:15:12,865 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 16:15:12,865 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 16:15:12,865 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 16:15:12,865 [P18972/D7/T217] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks completed, terminated
+2020-02-19 16:15:12,865 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 16:15:12,865 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 16:15:12,865 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 16:15:12,865 [P18972/D7/T180] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 16:15:12,865 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 16:15:12,865 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 16:15:12,865 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 16:15:12,866 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 16:15:12,866 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 16:15:12,866 [P18972/D7/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 16:15:12,866 [P18972/D7/T189] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 16:15:12,866 [P18972/D7/T180] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 16:15:12,866 [P18972/D7/T189] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 16:15:12,867 [P18972/D7/T58] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 16:15:13,000 [P18972/D7/T58] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 16:15:13,000 [P18972/D7/T58] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing 436110a]
+2020-02-19 16:15:13,027 [P18972/D7/T58] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (26ms) [Timing 436110a]
+2020-02-19 16:15:13,030 [P18972/D7/T58] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 16:15:13,034 [P18972/D7/T85] INFO   Umbraco.Web.UmbracoApplicationBase - Application shutdown. Details: "BinDirChangeOrDirectoryRename"
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+2020-02-19 16:16:19,591 [P18972/D9/T160] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing c9a4ea8]
+2020-02-19 16:16:19,628 [P18972/D9/T160] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 16:16:19,697 [P18972/D9/T160] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 16:16:19,698 [P18972/D9/T160] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 16:16:19,907 [P18972/D9/T160] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing a51532d]
+2020-02-19 16:16:20,019 [P18972/D9/T160] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (111ms) [Timing a51532d]
+2020-02-19 16:16:20,389 [P18972/D9/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 16:16:20,389 [P18972/D9/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 16:16:20,390 [P18972/D9/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 16:16:20,867 [P18972/D9/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing 50fa675]
+2020-02-19 16:16:20,899 [P18972/D9/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (31ms) [Timing 50fa675]
+2020-02-19 16:16:20,921 [P18972/D9/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing d9bd709]
+2020-02-19 16:16:20,921 [P18972/D9/T160] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing d9bd709]
+2020-02-19 16:16:21,102 [P18972/D9/T160] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 16:16:21,154 [P18972/D9/T160] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 16:16:21,196 [P18972/D9/T160] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 16:16:21,203 [P18972/D9/T160] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (1616ms) [Timing c9a4ea8]
+2020-02-19 16:16:21,447 [P18972/D9/T58] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 16:16:21,449 [P18972/D9/T58] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 16:17:55,206 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 16:17:55,206 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 16:17:55,208 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 16:17:55,208 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 16:17:55,208 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 16:17:55,210 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 16:17:55,210 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 16:17:55,211 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 16:17:55,211 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 16:17:55,211 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 16:17:55,213 [P18972/D9/T86] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 16:17:55,214 [P18972/D9/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 16:17:55,290 [P18972/D9/T86] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 16:17:55,291 [P18972/D9/T86] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing d5312a2]
+2020-02-19 16:17:55,312 [P18972/D9/T86] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (20ms) [Timing d5312a2]
+2020-02-19 16:17:55,312 [P18972/D9/T86] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 16:17:55,312 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 16:17:55,312 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 16:17:55,312 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 16:17:55,312 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 16:17:55,312 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 16:17:55,312 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 16:17:55,312 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 16:17:55,312 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 16:17:55,312 [P18972/D9/T180] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 16:17:55,312 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 16:17:55,312 [P18972/D9/T85] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 16:17:55,313 [P18972/D9/T180] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 16:17:55,316 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 16:17:55,316 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 16:17:55,316 [P18972/D9/T179] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 16:18:14,376 [P18972/D10/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing 28102d3]
+2020-02-19 16:18:14,411 [P18972/D10/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 16:18:14,477 [P18972/D10/T155] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 16:18:14,480 [P18972/D10/T155] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 16:18:14,729 [P18972/D10/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing ab0a971]
+2020-02-19 16:18:14,951 [P18972/D10/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (221ms) [Timing ab0a971]
+2020-02-19 16:18:15,424 [P18972/D10/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 16:18:15,424 [P18972/D10/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 16:18:15,427 [P18972/D10/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 16:18:15,803 [P18972/D10/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing 47661b0]
+2020-02-19 16:18:15,839 [P18972/D10/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (35ms) [Timing 47661b0]
+2020-02-19 16:18:15,861 [P18972/D10/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing b8c6e4f]
+2020-02-19 16:18:15,861 [P18972/D10/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing b8c6e4f]
+2020-02-19 16:18:16,132 [P18972/D10/T155] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 16:18:16,185 [P18972/D10/T155] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 16:18:16,222 [P18972/D10/T155] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 16:18:16,231 [P18972/D10/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (1860ms) [Timing 28102d3]
+2020-02-19 16:18:16,572 [P18972/D10/T58] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 16:18:16,574 [P18972/D10/T58] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 16:18:45,381 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Canceling tasks
+2020-02-19 16:18:45,484 [P18972/D9/T123] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks completed, terminated
+2020-02-19 16:18:45,484 [P18972/D9/T86] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks cancelled, terminated
+2020-02-19 16:18:45,492 [P18972/D9/T86] INFO   Umbraco.Web.UmbracoApplicationBase - Application shutdown. Details: "BinDirChangeOrDirectoryRename"
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ebb6b7da\70a58b7d\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ebb6b7da\70a58b7d\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+2020-02-19 16:19:31,375 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 16:19:31,375 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 16:19:31,378 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 16:19:31,379 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 16:19:31,384 [P18972/D10/T72] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 16:19:31,384 [P18972/D10/T179] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 16:19:31,385 [P18972/D10/T166] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 16:19:31,442 [P18972/D10/T166] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 16:19:31,443 [P18972/D10/T166] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing b7ca99c]
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (29ms) [Timing b7ca99c]
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 16:19:31,473 [P18972/D10/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 16:19:31,473 [P18972/D10/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 16:19:31,473 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 16:19:31,474 [P18972/D10/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 16:19:51,733 [P18972/D11/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing 921a111]
+2020-02-19 16:19:51,768 [P18972/D11/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 16:19:51,836 [P18972/D11/T155] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 16:19:51,838 [P18972/D11/T155] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 16:19:52,076 [P18972/D11/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing 8f4dbaf]
+2020-02-19 16:19:52,219 [P18972/D11/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (140ms) [Timing 8f4dbaf]
+2020-02-19 16:19:52,771 [P18972/D11/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 16:19:52,771 [P18972/D11/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 16:19:52,772 [P18972/D11/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 16:19:53,172 [P18972/D11/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing 528dd7a]
+2020-02-19 16:19:53,208 [P18972/D11/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (36ms) [Timing 528dd7a]
+2020-02-19 16:19:53,233 [P18972/D11/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing a96ed33]
+2020-02-19 16:19:53,234 [P18972/D11/T155] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing a96ed33]
+2020-02-19 16:19:53,424 [P18972/D11/T155] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 16:19:53,485 [P18972/D11/T155] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 16:19:53,526 [P18972/D11/T155] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 16:19:53,534 [P18972/D11/T155] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (1806ms) [Timing 921a111]
+2020-02-19 16:19:53,929 [P18972/D11/T58] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 16:19:53,930 [P18972/D11/T58] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 16:20:01,489 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Canceling tasks
+2020-02-19 16:20:01,603 [P18972/D10/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks completed, terminated
+2020-02-19 16:20:01,603 [P18972/D10/T166] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks cancelled, terminated
+2020-02-19 16:20:02,095 [P18972/D10/T58] INFO   Umbraco.Web.UmbracoApplicationBase - Application shutdown. Details: "BinDirChangeOrDirectoryRename"
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ebb6b7da\70a58b7d\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ebb6b7da\70a58b7d\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+2020-02-19 16:20:10,860 [P18972/D11/T181] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 16:20:10,907 [P18972/D11/T181] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 16:20:10,908 [P18972/D11/T181] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing 8512515]
+2020-02-19 16:20:10,936 [P18972/D11/T181] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (28ms) [Timing 8512515]
+2020-02-19 16:20:10,936 [P18972/D11/T181] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 16:20:10,937 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 16:20:10,937 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 16:20:10,939 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 16:20:10,939 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 16:20:10,939 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 16:20:10,940 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 16:20:10,940 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 16:20:10,940 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 16:20:10,940 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 16:20:10,941 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 16:20:10,941 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 16:20:10,941 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 16:20:10,941 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 16:20:10,941 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 16:20:10,945 [P18972/D11/T72] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 16:20:10,945 [P18972/D11/T72] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 16:20:10,945 [P18972/D11/T72] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 16:20:10,945 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 16:20:10,946 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 16:20:10,946 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 16:20:10,946 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 16:20:10,946 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 16:20:10,946 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 16:20:10,946 [P18972/D11/T181] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 16:20:10,946 [P18972/D11/T216] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 16:20:10,946 [P18972/D11/T58] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 16:20:39,482 [P25120/D2/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing aaec56a]
+2020-02-19 16:20:39,567 [P25120/D2/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 16:20:39,669 [P25120/D2/T1] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 16:20:39,673 [P25120/D2/T1] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 16:20:40,531 [P25120/D2/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing 5d18f34]
+2020-02-19 16:20:40,651 [P25120/D2/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (118ms) [Timing 5d18f34]
+2020-02-19 16:20:41,128 [P25120/D2/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 16:20:41,129 [P25120/D2/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 16:20:41,134 [P25120/D2/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 16:20:41,611 [P25120/D2/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing f2472e4]
+2020-02-19 16:20:41,653 [P25120/D2/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (42ms) [Timing f2472e4]
+2020-02-19 16:20:41,683 [P25120/D2/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing 0114ab3]
+2020-02-19 16:20:41,684 [P25120/D2/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing 0114ab3]
+2020-02-19 16:20:41,927 [P25120/D2/T1] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 16:20:41,985 [P25120/D2/T1] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 16:20:42,020 [P25120/D2/T1] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 16:20:42,029 [P25120/D2/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (2553ms) [Timing aaec56a]
+2020-02-19 16:20:42,537 [P25120/D2/T14] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 16:20:42,539 [P25120/D2/T14] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 16:23:45,017 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Scheduled health check results:
+2020-02-19 16:23:45,018 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Folder & File Permissions' all completed successfully.
+2020-02-19 16:23:45,018 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Folder & File Permissions: "Success", Message: 'All folders have the correct permissions set.'
+2020-02-19 16:23:45,018 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Folder & File Permissions: "Success", Message: 'All files have the correct permissions set.'
+2020-02-19 16:23:45,018 [P25120/D2/T29] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'SMTP Settings' completed with errors.
+2020-02-19 16:23:45,018 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for SMTP Settings: "Error", Message: 'In the Web.config file system.net/mailsettings section, the host is not configured.'
+2020-02-19 16:23:45,018 [P25120/D2/T29] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Macro errors' completed with errors.
+2020-02-19 16:23:45,018 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Macro errors: "Error", Message: 'MacroErrors are set to 'throw' which will prevent some or all pages in your site from loading completely if there are any errors in macros. Rectifying this will set the value to 'inline'.'
+2020-02-19 16:23:45,018 [P25120/D2/T29] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Notification Email Settings' completed with errors.
+2020-02-19 16:23:45,018 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Notification Email Settings: "Error", Message: 'Notification email is still set to the default value of <strong>your@email.here</strong>.'
+2020-02-19 16:23:45,018 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Try Skip IIS Custom Errors' all completed successfully.
+2020-02-19 16:23:45,018 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Try Skip IIS Custom Errors: "Success", Message: 'Try Skip IIS Custom Errors is set to 'true' and you're using IIS version '10.0'.'
+2020-02-19 16:23:45,018 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Custom Errors' all completed successfully.
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Custom Errors: "Success", Message: 'Custom errors are set to 'RemoteOnly'.'
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Trace Mode' all completed successfully.
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Trace Mode: "Success", Message: 'Trace mode is disabled.'
+2020-02-19 16:23:45,019 [P25120/D2/T29] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Debug Compilation Mode' completed with errors.
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Debug Compilation Mode: "Error", Message: 'Debug compilation mode is currently enabled. It is recommended to disable this setting before go live.'
+2020-02-19 16:23:45,019 [P25120/D2/T29] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Cross-site scripting Protection (X-XSS-Protection header)' completed with errors.
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Cross-site scripting Protection (X-XSS-Protection header): "Error", Message: 'The header <strong>X-XSS-Protection</strong> was not found.'
+2020-02-19 16:23:45,019 [P25120/D2/T29] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Cookie hijacking and protocol downgrade attacks Protection (Strict-Transport-Security Header (HSTS))' completed with errors.
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Cookie hijacking and protocol downgrade attacks Protection (Strict-Transport-Security Header (HSTS)): "Error", Message: 'The header <strong>Strict-Transport-Security</strong> was not found.'
+2020-02-19 16:23:45,019 [P25120/D2/T29] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Content/MIME Sniffing Protection' completed with errors.
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Content/MIME Sniffing Protection: "Error", Message: 'The header or meta-tag <strong>X-Content-Type-Options</strong> used to protect against MIME sniffing vulnerabilities was not found.'
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Excessive Headers' all completed successfully.
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Excessive Headers: "Success", Message: 'No headers revealing information about the website technology were found.'
+2020-02-19 16:23:45,019 [P25120/D2/T29] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Click-Jacking Protection' completed with errors.
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Click-Jacking Protection: "Error", Message: 'The header or meta-tag <strong>X-Frame-Options</strong> used to control whether a site can be IFRAMEd by another was not found.'
+2020-02-19 16:23:45,019 [P25120/D2/T29] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'HTTPS Configuration' completed with errors.
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Error", Message: 'You are currently not viewing the site using the HTTPS scheme.'
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Info", Message: 'The appSetting 'Umbraco.Core.UseHttps' is set to 'false' in your web.config file. Once you access this site using the HTTPS scheme, that should be set to 'true'.'
+2020-02-19 16:23:45,019 [P25120/D2/T29] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Error", Message: 'Certificate validation error: 'The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.''
+2020-02-19 16:25:21,879 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 16:25:21,880 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 16:25:21,883 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 16:25:21,883 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 16:25:21,883 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 16:25:21,883 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 16:25:21,883 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 16:25:21,883 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 16:25:21,884 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 16:25:21,884 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 16:25:21,884 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 16:25:21,884 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 16:25:21,887 [P25120/D2/T41] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 16:25:21,888 [P25120/D2/T9] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 16:25:21,888 [P25120/D2/T9] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks completed, terminated
+2020-02-19 16:25:21,888 [P25120/D2/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 16:25:21,958 [P25120/D2/T41] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 16:25:21,958 [P25120/D2/T41] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing e74ba82]
+2020-02-19 16:25:21,989 [P25120/D2/T41] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (30ms) [Timing e74ba82]
+2020-02-19 16:25:21,990 [P25120/D2/T41] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 16:25:21,990 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 16:25:21,990 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 16:25:21,990 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 16:25:21,990 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 16:25:21,990 [P25120/D2/T37] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 16:25:21,990 [P25120/D2/T12] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 16:25:21,994 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 16:25:21,994 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 16:25:21,994 [P25120/D2/T9] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 16:25:21,998 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 16:25:21,998 [P25120/D2/T41] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 16:25:21,998 [P25120/D2/T37] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 16:25:22,016 [P25120/D2/T41] INFO   Umbraco.Web.UmbracoApplicationBase - Application shutdown. Details: "BinDirChangeOrDirectoryRename"
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+2020-02-19 16:25:30,550 [P25120/D3/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing 89068e8]
+2020-02-19 16:25:30,618 [P25120/D3/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 16:25:30,677 [P25120/D3/T39] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 16:25:30,678 [P25120/D3/T39] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 16:25:30,950 [P25120/D3/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing 1536157]
+2020-02-19 16:25:31,067 [P25120/D3/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (115ms) [Timing 1536157]
+2020-02-19 16:25:31,464 [P25120/D3/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 16:25:31,464 [P25120/D3/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 16:25:31,466 [P25120/D3/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 16:25:31,917 [P25120/D3/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing 94ae4c6]
+2020-02-19 16:25:31,973 [P25120/D3/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (56ms) [Timing 94ae4c6]
+2020-02-19 16:25:32,027 [P25120/D3/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing 1c7327e]
+2020-02-19 16:25:32,028 [P25120/D3/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing 1c7327e]
+2020-02-19 16:25:32,261 [P25120/D3/T39] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 16:25:32,319 [P25120/D3/T39] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 16:25:32,362 [P25120/D3/T39] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 16:25:32,370 [P25120/D3/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (1825ms) [Timing 89068e8]
+2020-02-19 16:25:32,598 [P25120/D3/T11] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 16:25:32,600 [P25120/D3/T11] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 16:26:26,341 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 16:26:26,341 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 16:26:26,343 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 16:26:26,343 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 16:26:26,343 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 16:26:26,348 [P25120/D3/T9] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 16:26:26,349 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 16:26:26,349 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 16:26:26,349 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 16:26:26,349 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 16:26:26,349 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 16:26:26,349 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 16:26:26,349 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 16:26:26,350 [P25120/D3/T33] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 16:26:26,350 [P25120/D3/T12] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 16:26:26,351 [P25120/D3/T40] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 16:26:26,474 [P25120/D3/T40] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 16:26:26,474 [P25120/D3/T40] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing d1eb5f7]
+2020-02-19 16:26:26,506 [P25120/D3/T40] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (32ms) [Timing d1eb5f7]
+2020-02-19 16:26:26,507 [P25120/D3/T40] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 16:26:26,507 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 16:26:26,507 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 16:26:26,507 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 16:26:26,507 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 16:26:26,507 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 16:26:26,507 [P25120/D3/T9] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 16:26:26,507 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 16:26:26,507 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 16:26:26,507 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 16:26:26,507 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 16:26:26,507 [P25120/D3/T28] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 16:26:28,505 [P25120/D4/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing 0ef1895]
+2020-02-19 16:26:28,543 [P25120/D4/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 16:26:28,609 [P25120/D4/T39] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 16:26:28,611 [P25120/D4/T39] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 16:26:28,843 [P25120/D4/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing b55d383]
+2020-02-19 16:26:28,954 [P25120/D4/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (110ms) [Timing b55d383]
+2020-02-19 16:26:29,312 [P25120/D4/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 16:26:29,312 [P25120/D4/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 16:26:29,314 [P25120/D4/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 16:26:29,695 [P25120/D4/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing af406d4]
+2020-02-19 16:26:29,731 [P25120/D4/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (35ms) [Timing af406d4]
+2020-02-19 16:26:29,762 [P25120/D4/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing 1d140a8]
+2020-02-19 16:26:29,762 [P25120/D4/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing 1d140a8]
+2020-02-19 16:26:29,947 [P25120/D4/T39] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 16:26:29,998 [P25120/D4/T39] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 16:26:30,034 [P25120/D4/T39] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 16:26:30,040 [P25120/D4/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (1540ms) [Timing 0ef1895]
+2020-02-19 16:26:30,291 [P25120/D4/T33] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 16:26:30,293 [P25120/D4/T33] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 16:26:56,518 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Canceling tasks
+2020-02-19 16:26:56,619 [P25120/D3/T40] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks cancelled, terminated
+2020-02-19 16:26:56,619 [P25120/D3/T12] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks completed, terminated
+2020-02-19 16:26:56,625 [P25120/D3/T16] INFO   Umbraco.Web.UmbracoApplicationBase - Application shutdown. Details: "BinDirChangeOrDirectoryRename"
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ebb6b7da\70a58b7d\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ebb6b7da\70a58b7d\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+2020-02-19 16:27:07,957 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 16:27:07,957 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 16:27:07,961 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 16:27:07,961 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 16:27:07,961 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 16:27:07,961 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 16:27:07,962 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 16:27:07,962 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 16:27:07,962 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 16:27:07,967 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 16:27:07,967 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 16:27:07,967 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 16:27:07,967 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 16:27:07,967 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 16:27:07,967 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 16:27:07,967 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 16:27:07,967 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 16:27:07,967 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 16:27:07,967 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 16:27:07,968 [P25120/D4/T7] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 16:27:07,968 [P25120/D4/T7] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 16:27:07,969 [P25120/D4/T45] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 16:27:07,969 [P25120/D4/T44] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 16:27:07,970 [P25120/D4/T16] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 16:27:08,038 [P25120/D4/T44] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 16:27:08,039 [P25120/D4/T44] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing a69a543]
+2020-02-19 16:27:08,076 [P25120/D4/T44] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (36ms) [Timing a69a543]
+2020-02-19 16:27:08,076 [P25120/D4/T44] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 16:27:08,076 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 16:27:08,076 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 16:27:08,076 [P25120/D4/T31] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 16:27:11,665 [P25120/D5/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing 44ae7ce]
+2020-02-19 16:27:11,703 [P25120/D5/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 16:27:11,788 [P25120/D5/T39] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 16:27:11,790 [P25120/D5/T39] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 16:27:12,006 [P25120/D5/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing b92c3db]
+2020-02-19 16:27:12,220 [P25120/D5/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (213ms) [Timing b92c3db]
+2020-02-19 16:27:12,780 [P25120/D5/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 16:27:12,780 [P25120/D5/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 16:27:12,783 [P25120/D5/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 16:27:13,235 [P25120/D5/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing d7485e7]
+2020-02-19 16:27:13,315 [P25120/D5/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (79ms) [Timing d7485e7]
+2020-02-19 16:27:13,387 [P25120/D5/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing 5204d5a]
+2020-02-19 16:27:13,388 [P25120/D5/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing 5204d5a]
+2020-02-19 16:27:13,706 [P25120/D5/T39] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 16:27:13,762 [P25120/D5/T39] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 16:27:13,818 [P25120/D5/T39] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 16:27:13,825 [P25120/D5/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (2164ms) [Timing 44ae7ce]
+2020-02-19 16:27:14,065 [P25120/D5/T31] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 16:27:14,066 [P25120/D5/T31] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 16:27:38,080 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Canceling tasks
+2020-02-19 16:27:38,180 [P25120/D4/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks cancelled, terminated
+2020-02-19 16:27:38,180 [P25120/D4/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks completed, terminated
+2020-02-19 16:27:38,185 [P25120/D4/T12] INFO   Umbraco.Web.UmbracoApplicationBase - Application shutdown. Details: "BinDirChangeOrDirectoryRename"
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ebb6b7da\70a58b7d\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ebb6b7da\70a58b7d\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+2020-02-19 16:30:16,429 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Scheduled health check results:
+2020-02-19 16:30:16,429 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Folder & File Permissions' all completed successfully.
+2020-02-19 16:30:16,429 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Folder & File Permissions: "Success", Message: 'All folders have the correct permissions set.'
+2020-02-19 16:30:16,429 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Folder & File Permissions: "Success", Message: 'All files have the correct permissions set.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'SMTP Settings' completed with errors.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for SMTP Settings: "Error", Message: 'In the Web.config file system.net/mailsettings section, the host is not configured.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Macro errors' completed with errors.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Macro errors: "Error", Message: 'MacroErrors are set to 'throw' which will prevent some or all pages in your site from loading completely if there are any errors in macros. Rectifying this will set the value to 'inline'.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Notification Email Settings' completed with errors.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Notification Email Settings: "Error", Message: 'Notification email is still set to the default value of <strong>your@email.here</strong>.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Try Skip IIS Custom Errors' all completed successfully.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Try Skip IIS Custom Errors: "Success", Message: 'Try Skip IIS Custom Errors is set to 'true' and you're using IIS version '10.0'.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Custom Errors' all completed successfully.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Custom Errors: "Success", Message: 'Custom errors are set to 'RemoteOnly'.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Trace Mode' all completed successfully.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Trace Mode: "Success", Message: 'Trace mode is disabled.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Debug Compilation Mode' completed with errors.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Debug Compilation Mode: "Error", Message: 'Debug compilation mode is currently enabled. It is recommended to disable this setting before go live.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Cross-site scripting Protection (X-XSS-Protection header)' completed with errors.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Cross-site scripting Protection (X-XSS-Protection header): "Error", Message: 'The header <strong>X-XSS-Protection</strong> was not found.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Cookie hijacking and protocol downgrade attacks Protection (Strict-Transport-Security Header (HSTS))' completed with errors.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Cookie hijacking and protocol downgrade attacks Protection (Strict-Transport-Security Header (HSTS)): "Error", Message: 'The header <strong>Strict-Transport-Security</strong> was not found.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Content/MIME Sniffing Protection' completed with errors.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Content/MIME Sniffing Protection: "Error", Message: 'The header or meta-tag <strong>X-Content-Type-Options</strong> used to protect against MIME sniffing vulnerabilities was not found.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Excessive Headers' all completed successfully.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Excessive Headers: "Success", Message: 'No headers revealing information about the website technology were found.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Click-Jacking Protection' completed with errors.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Click-Jacking Protection: "Error", Message: 'The header or meta-tag <strong>X-Frame-Options</strong> used to control whether a site can be IFRAMEd by another was not found.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'HTTPS Configuration' completed with errors.
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Error", Message: 'You are currently not viewing the site using the HTTPS scheme.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Info", Message: 'The appSetting 'Umbraco.Core.UseHttps' is set to 'false' in your web.config file. Once you access this site using the HTTPS scheme, that should be set to 'true'.'
+2020-02-19 16:30:16,430 [P25120/D5/T42] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Error", Message: 'Certificate validation error: 'The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.''
+2020-02-19 16:47:42,134 [P25120/D5/T42] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 16:47:42,278 [P25120/D5/T42] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 16:47:42,279 [P25120/D5/T42] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing ec657c0]
+2020-02-19 16:47:42,308 [P25120/D5/T42] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (28ms) [Timing ec657c0]
+2020-02-19 16:47:42,308 [P25120/D5/T42] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 16:47:42,309 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 16:47:42,310 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 16:47:42,311 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 16:47:42,311 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 16:47:42,311 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 16:47:42,313 [P25120/D5/T42] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 16:47:42,316 [P25120/D5/T33] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 16:47:42,316 [P25120/D5/T44] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 16:47:42,316 [P25120/D5/T48] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 16:47:42,316 [P25120/D5/T33] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 16:47:42,316 [P25120/D5/T12] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 16:47:42,316 [P25120/D5/T17] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 16:47:42,316 [P25120/D5/T28] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks completed, terminated
+2020-02-19 16:47:42,418 [P25120/D5/T45] INFO   Umbraco.Web.UmbracoApplicationBase - Application shutdown. Details: "BinDirChangeOrDirectoryRename"
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+2020-02-19 16:47:57,203 [P25120/D6/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing 4442afb]
+2020-02-19 16:47:57,235 [P25120/D6/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 16:47:57,297 [P25120/D6/T39] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 16:47:57,298 [P25120/D6/T39] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 16:47:57,505 [P25120/D6/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing f93d629]
+2020-02-19 16:47:57,620 [P25120/D6/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (113ms) [Timing f93d629]
+2020-02-19 16:47:58,166 [P25120/D6/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 16:47:58,166 [P25120/D6/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 16:47:58,169 [P25120/D6/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 16:47:58,586 [P25120/D6/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing 5dde0db]
+2020-02-19 16:47:58,623 [P25120/D6/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (37ms) [Timing 5dde0db]
+2020-02-19 16:47:58,645 [P25120/D6/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing 2863fa9]
+2020-02-19 16:47:58,646 [P25120/D6/T39] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing 2863fa9]
+2020-02-19 16:47:58,830 [P25120/D6/T39] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 16:47:58,880 [P25120/D6/T39] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 16:47:58,922 [P25120/D6/T39] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 16:47:58,928 [P25120/D6/T39] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (1730ms) [Timing 4442afb]
+2020-02-19 16:47:59,239 [P25120/D6/T35] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 16:47:59,240 [P25120/D6/T35] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 16:50:30,528 [P25120/D6/T32] INFO   Umbraco.Core.Logging.OwinLogger - ["Information"] Event Id: 0, State: Login attempt succeeded for username yakove@matrix.co.il from IP address 127.0.0.1
+2020-02-19 16:50:30,529 [P25120/D6/T32] INFO   Umbraco.Core.Logging.OwinLogger - ["Information"] Event Id: 0, State: User: yakove@matrix.co.il logged in from IP address 127.0.0.1
+2020-02-19 16:51:05,557 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Scheduled health check results:
+2020-02-19 16:51:05,557 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Folder & File Permissions' all completed successfully.
+2020-02-19 16:51:05,557 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Folder & File Permissions: "Success", Message: 'All folders have the correct permissions set.'
+2020-02-19 16:51:05,557 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Folder & File Permissions: "Success", Message: 'All files have the correct permissions set.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'SMTP Settings' completed with errors.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for SMTP Settings: "Error", Message: 'In the Web.config file system.net/mailsettings section, the host is not configured.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Macro errors' completed with errors.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Macro errors: "Error", Message: 'MacroErrors are set to 'throw' which will prevent some or all pages in your site from loading completely if there are any errors in macros. Rectifying this will set the value to 'inline'.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Notification Email Settings' completed with errors.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Notification Email Settings: "Error", Message: 'Notification email is still set to the default value of <strong>your@email.here</strong>.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Try Skip IIS Custom Errors' all completed successfully.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Try Skip IIS Custom Errors: "Success", Message: 'Try Skip IIS Custom Errors is set to 'true' and you're using IIS version '10.0'.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Custom Errors' all completed successfully.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Custom Errors: "Success", Message: 'Custom errors are set to 'RemoteOnly'.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Trace Mode' all completed successfully.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Trace Mode: "Success", Message: 'Trace mode is disabled.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Debug Compilation Mode' completed with errors.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Debug Compilation Mode: "Error", Message: 'Debug compilation mode is currently enabled. It is recommended to disable this setting before go live.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Cross-site scripting Protection (X-XSS-Protection header)' completed with errors.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Cross-site scripting Protection (X-XSS-Protection header): "Error", Message: 'The header <strong>X-XSS-Protection</strong> was not found.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Cookie hijacking and protocol downgrade attacks Protection (Strict-Transport-Security Header (HSTS))' completed with errors.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Cookie hijacking and protocol downgrade attacks Protection (Strict-Transport-Security Header (HSTS)): "Error", Message: 'The header <strong>Strict-Transport-Security</strong> was not found.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Content/MIME Sniffing Protection' completed with errors.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Content/MIME Sniffing Protection: "Error", Message: 'The header or meta-tag <strong>X-Content-Type-Options</strong> used to protect against MIME sniffing vulnerabilities was not found.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Excessive Headers' all completed successfully.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Excessive Headers: "Success", Message: 'No headers revealing information about the website technology were found.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Click-Jacking Protection' completed with errors.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Click-Jacking Protection: "Error", Message: 'The header or meta-tag <strong>X-Frame-Options</strong> used to control whether a site can be IFRAMEd by another was not found.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'HTTPS Configuration' completed with errors.
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Error", Message: 'You are currently not viewing the site using the HTTPS scheme.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Info", Message: 'The appSetting 'Umbraco.Core.UseHttps' is set to 'false' in your web.config file. Once you access this site using the HTTPS scheme, that should be set to 'true'.'
+2020-02-19 16:51:05,558 [P25120/D6/T11] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Error", Message: 'Certificate validation error: 'The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.''
+2020-02-19 16:52:30,178 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Terminating 
+2020-02-19 16:52:30,178 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Waiting for tasks to complete
+2020-02-19 16:52:30,181 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Terminating 
+2020-02-19 16:52:30,181 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Waiting for tasks to complete
+2020-02-19 16:52:30,182 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Tasks completed, terminated
+2020-02-19 16:52:30,185 [P25120/D6/T9] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [TempFileCleanup]  Tasks completed, terminated
+2020-02-19 16:52:30,186 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Terminating 
+2020-02-19 16:52:30,186 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Waiting for tasks to complete
+2020-02-19 16:52:30,186 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Tasks completed, terminated
+2020-02-19 16:52:30,188 [P25120/D6/T30] INFO   Umbraco.Core.MainDom - Stopping (environment)
+2020-02-19 16:52:30,261 [P25120/D6/T30] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Released from MainDom
+2020-02-19 16:52:30,262 [P25120/D6/T30] INFO   Umbraco.Web.Search.ExamineComponent - Examine shutting down [Timing 56188a3]
+2020-02-19 16:52:30,281 [P25120/D6/T30] INFO   Umbraco.Web.Search.ExamineComponent - Completed. (18ms) [Timing 56188a3]
+2020-02-19 16:52:30,281 [P25120/D6/T30] INFO   Umbraco.Core.MainDom - Released (environment)
+2020-02-19 16:52:30,282 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Terminating 
+2020-02-19 16:52:30,282 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Waiting for tasks to complete
+2020-02-19 16:52:30,282 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Terminating 
+2020-02-19 16:52:30,282 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Waiting for tasks to complete
+2020-02-19 16:52:30,282 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Terminating 
+2020-02-19 16:52:30,282 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Waiting for tasks to complete
+2020-02-19 16:52:30,282 [P25120/D6/T37] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Tasks completed, terminated
+2020-02-19 16:52:30,282 [P25120/D6/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Tasks completed, terminated
+2020-02-19 16:52:30,282 [P25120/D6/T53] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Tasks completed, terminated
+2020-02-19 16:52:30,282 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Terminating 
+2020-02-19 16:52:30,282 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Waiting for tasks to complete
+2020-02-19 16:52:30,282 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Terminating 
+2020-02-19 16:52:30,282 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Waiting for tasks to complete
+2020-02-19 16:52:30,282 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Terminating 
+2020-02-19 16:52:30,282 [P25120/D6/T30] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Waiting for tasks to complete
+2020-02-19 16:52:30,282 [P25120/D6/T11] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Tasks completed, terminated
+2020-02-19 16:52:30,282 [P25120/D6/T11] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Tasks completed, terminated
+2020-02-19 16:52:30,282 [P25120/D6/T15] INFO   Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier]  Tasks completed, terminated
+2020-02-19 16:52:30,387 [P25120/D6/T12] INFO   Umbraco.Web.UmbracoApplicationBase - Application shutdown. Details: "BinDirChangeOrDirectoryRename"
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+2020-02-19 16:52:40,401 [P25120/D7/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.5.3. [Timing c9ff794]
+2020-02-19 16:52:40,441 [P25120/D7/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting site 'elal.test', app '/LM/W3SVC/11/ROOT', path 'D:\ELAL\elalAPI\', server 'DORDAN-HHS'.
+2020-02-19 16:52:40,499 [P25120/D7/T1] INFO   Umbraco.Core.MainDom - Acquiring.
+2020-02-19 16:52:40,500 [P25120/D7/T1] INFO   Umbraco.Core.MainDom - Acquired.
+2020-02-19 16:52:40,696 [P25120/D7/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing 4e6d937]
+2020-02-19 16:52:40,805 [P25120/D7/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (108ms) [Timing 4e6d937]
+2020-02-19 16:52:41,213 [P25120/D7/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Registered with MainDom, localContentDbExists? true, localMediaDbExists? true
+2020-02-19 16:52:41,213 [P25120/D7/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the content store, localContentDbExists? true
+2020-02-19 16:52:41,215 [P25120/D7/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Creating the media store, localMediaDbExists? true
+2020-02-19 16:52:41,606 [P25120/D7/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local cache file [Timing 7a78ea0]
+2020-02-19 16:52:41,641 [P25120/D7/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (34ms) [Timing 7a78ea0]
+2020-02-19 16:52:41,664 [P25120/D7/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local cache file [Timing b8e50d0]
+2020-02-19 16:52:41,664 [P25120/D7/T1] INFO   Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Completed. (0ms) [Timing b8e50d0]
+2020-02-19 16:52:41,854 [P25120/D7/T1] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2020-02-19 16:52:41,905 [P25120/D7/T1] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2020-02-19 16:52:41,953 [P25120/D7/T1] INFO   Umbraco.Web.Search.BackgroundIndexRebuilder - Starting initialize async background thread.
+2020-02-19 16:52:41,959 [P25120/D7/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (1564ms) [Timing c9ff794]
+2020-02-19 16:52:42,220 [P25120/D7/T9] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://elal.test:80/umbraco detected, re-discovering application url.
+2020-02-19 16:52:42,222 [P25120/D7/T9] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://elal.test:80/umbraco (UmbracoModule request)
+2020-02-19 17:37:47,445 [P25120/D7/T15] INFO   Umbraco.Core.Logging.OwinLogger - ["Information"] Event Id: 0, State: User logged will be logged out due to timeout: yakove@matrix.co.il, IP Address: 127.0.0.1
+2020-02-19 17:37:48,327 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Scheduled health check results:
+2020-02-19 17:37:48,330 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Folder & File Permissions' all completed successfully.
+2020-02-19 17:37:48,331 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Folder & File Permissions: "Success", Message: 'All folders have the correct permissions set.'
+2020-02-19 17:37:48,331 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Folder & File Permissions: "Success", Message: 'All files have the correct permissions set.'
+2020-02-19 17:37:48,331 [P25120/D7/T28] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'SMTP Settings' completed with errors.
+2020-02-19 17:37:48,331 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for SMTP Settings: "Error", Message: 'In the Web.config file system.net/mailsettings section, the host is not configured.'
+2020-02-19 17:37:48,331 [P25120/D7/T28] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Macro errors' completed with errors.
+2020-02-19 17:37:48,331 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Macro errors: "Error", Message: 'MacroErrors are set to 'throw' which will prevent some or all pages in your site from loading completely if there are any errors in macros. Rectifying this will set the value to 'inline'.'
+2020-02-19 17:37:48,331 [P25120/D7/T28] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Notification Email Settings' completed with errors.
+2020-02-19 17:37:48,331 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Notification Email Settings: "Error", Message: 'Notification email is still set to the default value of <strong>your@email.here</strong>.'
+2020-02-19 17:37:48,331 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Try Skip IIS Custom Errors' all completed successfully.
+2020-02-19 17:37:48,331 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Try Skip IIS Custom Errors: "Success", Message: 'Try Skip IIS Custom Errors is set to 'true' and you're using IIS version '10.0'.'
+2020-02-19 17:37:48,331 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Custom Errors' all completed successfully.
+2020-02-19 17:37:48,331 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Custom Errors: "Success", Message: 'Custom errors are set to 'RemoteOnly'.'
+2020-02-19 17:37:48,331 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Trace Mode' all completed successfully.
+2020-02-19 17:37:48,331 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Trace Mode: "Success", Message: 'Trace mode is disabled.'
+2020-02-19 17:37:48,331 [P25120/D7/T28] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Debug Compilation Mode' completed with errors.
+2020-02-19 17:37:48,332 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Debug Compilation Mode: "Error", Message: 'Debug compilation mode is currently enabled. It is recommended to disable this setting before go live.'
+2020-02-19 17:37:48,332 [P25120/D7/T28] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Cross-site scripting Protection (X-XSS-Protection header)' completed with errors.
+2020-02-19 17:37:48,332 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Cross-site scripting Protection (X-XSS-Protection header): "Error", Message: 'Error pinging the URL http://elal.test/umbraco - 'The request was aborted: The operation has timed out.''
+2020-02-19 17:37:48,332 [P25120/D7/T28] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Cookie hijacking and protocol downgrade attacks Protection (Strict-Transport-Security Header (HSTS))' completed with errors.
+2020-02-19 17:37:48,332 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Cookie hijacking and protocol downgrade attacks Protection (Strict-Transport-Security Header (HSTS)): "Error", Message: 'The header <strong>Strict-Transport-Security</strong> was not found.'
+2020-02-19 17:37:48,332 [P25120/D7/T28] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Content/MIME Sniffing Protection' completed with errors.
+2020-02-19 17:37:48,332 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Content/MIME Sniffing Protection: "Error", Message: 'The header or meta-tag <strong>X-Content-Type-Options</strong> used to protect against MIME sniffing vulnerabilities was not found.'
+2020-02-19 17:37:48,332 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Excessive Headers' all completed successfully.
+2020-02-19 17:37:48,332 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Excessive Headers: "Success", Message: 'No headers revealing information about the website technology were found.'
+2020-02-19 17:37:48,332 [P25120/D7/T28] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'Click-Jacking Protection' completed with errors.
+2020-02-19 17:37:48,332 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for Click-Jacking Protection: "Error", Message: 'The header or meta-tag <strong>X-Frame-Options</strong> used to control whether a site can be IFRAMEd by another was not found.'
+2020-02-19 17:37:48,332 [P25120/D7/T28] WARN   Umbraco.Web.HealthCheck.HealthCheckResults - Checks for 'HTTPS Configuration' completed with errors.
+2020-02-19 17:37:48,332 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Error", Message: 'You are currently not viewing the site using the HTTPS scheme.'
+2020-02-19 17:37:48,332 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Info", Message: 'The appSetting 'Umbraco.Core.UseHttps' is set to 'false' in your web.config file. Once you access this site using the HTTPS scheme, that should be set to 'true'.'
+2020-02-19 17:37:48,332 [P25120/D7/T28] INFO   Umbraco.Web.HealthCheck.HealthCheckResults - Result for HTTPS Configuration: "Error", Message: 'Certificate validation error: 'The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.''

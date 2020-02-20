@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Serilog.Core;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -13,11 +14,13 @@ namespace elalAPI.Managers
         void LogStart();
         void LogFinish();
     }
-    public class Logger : ILogger
+    public class ElalLogger : ILogger
     {
         public void LogError(string txt)
         {
             throw new NotImplementedException();
+        
+            
         }
 
         public void LogFinish()
